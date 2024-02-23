@@ -1,7 +1,11 @@
-import Footer from "@/components/element/footer";
-import { Header } from "@/components/element/header"
+import { Header } from "@/components/element/header";
+import { Metadata } from "next";
 
-export default function Home() {
+export const metadata:Metadata = {
+	title: 'About'
+}
+
+export default function About() {
 	return (
 		<>
 			<Header/>
